@@ -127,25 +127,49 @@ p {
 }
 
 .gradient-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4354e2), to(#6ca3f3));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#4354e2),
+    to(#6ca3f3)
+  );
   background-image: linear-gradient(#4354e2 0%, #6ca3f3 100%);
   color: #fff;
 }
 
 .gradient-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dc4985), to(#f18da2));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dc4985),
+    to(#f18da2)
+  );
   background-image: linear-gradient(#dc4985 0%, #f18da2 100%);
   color: #fff;
 }
 
 .gradient-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2cc590), to(#75eb92));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#2cc590),
+    to(#75eb92)
+  );
   background-image: linear-gradient(#2cc590 0%, #75eb92 100%);
   color: #fff;
 }
 
 .gradient-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a866d1), to(#f9a4d7));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a866d1),
+    to(#f9a4d7)
+  );
   background-image: linear-gradient(#a866d1 0%, #f9a4d7 100%);
   color: #fff;
 }
@@ -158,7 +182,7 @@ textarea {
   font-size: 16px;
   padding: 17px 30px;
   margin-bottom: 20px;
-  color: #868AAA;
+  color: #868aaa;
   -webkit-box-shadow: 0px 0px 51px rgba(180, 180, 180, 0.16);
   box-shadow: 0px 0px 51px rgba(180, 180, 180, 0.16);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -188,13 +212,13 @@ textarea::placeholder {
 
 input:focus,
 textarea:focus {
-  border-color: #DE5088;
+  border-color: #de5088;
 }
 
 .back-to-top {
   width: 45px;
   height: 45px;
-  background: #DE5088;
+  background: #de5088;
   text-align: center;
   line-height: 45px;
   font-size: 20px;
@@ -242,8 +266,24 @@ textarea:focus {
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dc4985), color-stop(#e25c8b), color-stop(#e86d92), color-stop(#ed7d9a), to(#f18da2));
-  background-image: linear-gradient(to bottom, #dc4985, #e25c8b, #e86d92, #ed7d9a, #f18da2);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dc4985),
+    color-stop(#e25c8b),
+    color-stop(#e86d92),
+    color-stop(#ed7d9a),
+    to(#f18da2)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #dc4985,
+    #e25c8b,
+    #e86d92,
+    #ed7d9a,
+    #f18da2
+  );
 }
 
 .main-btn:hover {
@@ -350,7 +390,8 @@ textarea:focus {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-animation: spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
   animation: spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
@@ -374,13 +415,13 @@ textarea:focus {
 
 .preloader .loader .spinner-circle {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   width: 200%;
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #DE5088 #DE5088 #F9F9F9;
+  border-color: #de5088 #de5088 #f9f9f9;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -388,16 +429,18 @@ textarea:focus {
 .preloader .loader .spinner-left .spinner-circle {
   left: 0;
   right: -100%;
-  border-right-color: #F9F9F9;
-  -webkit-animation: spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  border-right-color: #f9f9f9;
+  -webkit-animation: spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
   animation: spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .preloader .loader .spinner-right .spinner-circle {
   left: -100%;
   right: 0;
-  border-left-color: #F9F9F9;
-  -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  border-left-color: #f9f9f9;
+  -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
   animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
@@ -1283,7 +1326,7 @@ textarea:focus {
   z-index: 99;
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
@@ -1348,7 +1391,8 @@ textarea:focus {
   top: -7px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -1362,7 +1406,8 @@ textarea:focus {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-nav {
     padding: 20px 30px;
   }
@@ -1379,7 +1424,8 @@ textarea:focus {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-nav .nav-item {
     margin: 0;
   }
@@ -1393,7 +1439,8 @@ textarea:focus {
   transition: all 0.3s ease-out 0s;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 6px 0;
@@ -1401,8 +1448,9 @@ textarea:focus {
   }
 }
 
-.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
-  color: #DE5088;
+.navbar-nav .nav-item a.active,
+.navbar-nav .nav-item a:hover {
+  color: #de5088;
 }
 
 .sticky .navbar-toggler .toggler-icon {
@@ -1414,11 +1462,12 @@ textarea:focus {
 }
 
 .sticky .navbar-nav .nav-item a::before {
-  background-color: #DE5088;
+  background-color: #de5088;
 }
 
-.sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
-  color: #DE5088;
+.sticky .navbar-nav .nav-item a.active,
+.sticky .navbar-nav .nav-item a:hover {
+  color: #de5088;
 }
 
 /* ====== hero-area css ======== */
@@ -1478,10 +1527,10 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hero-area .hero-content .hero-btns .main-btn {
@@ -1507,7 +1556,13 @@ textarea:focus {
   font-size: 20px;
   text-align: center;
   line-height: 45px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#a866d1), to(#f9a4d7));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a866d1),
+    to(#f9a4d7)
+  );
   background: linear-gradient(#a866d1 0%, #f9a4d7 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -1525,7 +1580,7 @@ textarea:focus {
 }
 
 .hero-area .hero-content .hero-btns .watch-btn span:hover {
-  color: #DE5088;
+  color: #de5088;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1539,8 +1594,8 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   padding-bottom: 30px;
 }
 
@@ -1736,22 +1791,46 @@ textarea:focus {
 }
 
 .feature-area .single-feature.item-1::after {
-  background: -webkit-gradient(linear, left top, left bottom, from(#4354e2), to(#6ca3f3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#4354e2),
+    to(#6ca3f3)
+  );
   background: linear-gradient(#4354e2 0%, #6ca3f3 100%);
 }
 
 .feature-area .single-feature.item-2::after {
-  background: -webkit-gradient(linear, left top, left bottom, from(#dc4985), to(#f18da2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dc4985),
+    to(#f18da2)
+  );
   background: linear-gradient(#dc4985 0%, #f18da2 100%);
 }
 
 .feature-area .single-feature.item-3::after {
-  background: -webkit-gradient(linear, left top, left bottom, from(#2cc590), to(#75eb92));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#2cc590),
+    to(#75eb92)
+  );
   background: linear-gradient(#2cc590 0%, #75eb92 100%);
 }
 
 .feature-area .single-feature.item-4::after {
-  background: -webkit-gradient(linear, left top, left bottom, from(#a866d1), to(#f9a4d7));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a866d1),
+    to(#f9a4d7)
+  );
   background: linear-gradient(#a866d1 0%, #f9a4d7 100%);
 }
 
@@ -1786,7 +1865,7 @@ textarea:focus {
 .feature-area .single-feature .feature-content p {
   font-size: 16px;
   line-height: 24px;
-  color: #868AAA;
+  color: #868aaa;
 }
 
 .icon-style {
@@ -1798,11 +1877,11 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -1880,7 +1959,7 @@ textarea:focus {
   white-space: normal;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  color: #DE5088;
+  color: #de5088;
   width: 100%;
 }
 
@@ -1913,12 +1992,12 @@ textarea:focus {
 }
 
 .accordion-style .single-accordion .accordion-btn button:hover {
-  color: #DE5088;
+  color: #de5088;
 }
 
 .accordion-style .single-accordion .accordion-btn button.collapsed::after {
   -webkit-transform: rotate(0deg) translateY(-50%);
-          transform: rotate(0deg) translateY(-50%);
+  transform: rotate(0deg) translateY(-50%);
 }
 
 .accordion-style .single-accordion .accordion-btn button::after {
@@ -1928,7 +2007,7 @@ textarea:focus {
   right: 30px;
   top: 50%;
   -webkit-transform: rotate(180deg) translateY(50%);
-          transform: rotate(180deg) translateY(50%);
+  transform: rotate(180deg) translateY(50%);
   font-size: 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -1964,7 +2043,7 @@ textarea:focus {
 }
 
 .pricing-area .single-price .package-price {
-  color: #DE5088;
+  color: #de5088;
 }
 
 .pricing-area .single-price .package-details {
@@ -1974,14 +2053,14 @@ textarea:focus {
 .pricing-area .single-price .package-details li {
   font-size: 16px;
   line-height: 32px;
-  color: #868AAA;
+  color: #868aaa;
 }
 
 .pricing-area .single-price .price-btn {
   padding: 12px 32px;
   font-size: 16px;
   font-weight: 600;
-  background: #868AAA;
+  background: #868aaa;
   margin-bottom: -25px;
 }
 
@@ -2000,7 +2079,13 @@ textarea:focus {
 }
 
 .pricing-area .single-price.active .price-btn {
-  background: -webkit-gradient(linear, left top, left bottom, from(#dc4985), to(#f18da2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dc4985),
+    to(#f18da2)
+  );
   background: linear-gradient(#dc4985 0%, #f18da2 100%);
 }
 
@@ -2019,7 +2104,13 @@ textarea:focus {
   position: absolute;
   width: 0;
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#dc4985), to(#f18da2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dc4985),
+    to(#f18da2)
+  );
   background: linear-gradient(#dc4985 0%, #f18da2 100%);
   left: 0;
   top: 0;
@@ -2066,7 +2157,10 @@ textarea:focus {
   opacity: 0;
 }
 
-.contact-area .contact-form-wrapper .contact-form button.btn-hover:hover::after {
+.contact-area
+  .contact-form-wrapper
+  .contact-form
+  button.btn-hover:hover::after {
   opacity: 1;
   width: 100%;
 }
@@ -2091,13 +2185,13 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .download-area .download-wrapper .download-content .download-btns a {
@@ -2105,8 +2199,8 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 13px 30px;
   background: #fff;
   border-radius: 10px;
@@ -2118,10 +2212,14 @@ textarea:focus {
 }
 
 .download-area .download-wrapper .download-content .download-btns a:hover {
-  color: #DE5088;
+  color: #de5088;
 }
 
-.download-area .download-wrapper .download-content .download-btns a.btn-hover::after {
+.download-area
+  .download-wrapper
+  .download-content
+  .download-btns
+  a.btn-hover::after {
   background: rgba(222, 80, 136, 0.05);
 }
 
@@ -2139,7 +2237,13 @@ textarea:focus {
   font-weight: 700;
 }
 
-.download-area .download-wrapper .download-content .download-btns a span.text b {
+.download-area
+  .download-wrapper
+  .download-content
+  .download-btns
+  a
+  span.text
+  b {
   font-size: 12px;
   font-weight: 400;
   display: block;
@@ -2173,7 +2277,7 @@ textarea:focus {
 .footer-area .footer-widget p {
   font-size: 16px;
   line-height: 26px;
-  color: #868AAA;
+  color: #868aaa;
 }
 
 .footer-area .footer-widget ul li a {
@@ -2181,7 +2285,7 @@ textarea:focus {
 }
 
 .footer-area .footer-widget ul li a:hover {
-  color: #DE5088;
+  color: #de5088;
 }
 
 .footer-area .footer-widget .social-links {
@@ -2189,11 +2293,11 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .footer-area .footer-widget .social-links li {
@@ -2213,48 +2317,48 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .footer-area .footer-widget .social-links li a.facebook {
-  color: #6598FE;
+  color: #6598fe;
 }
 
 .footer-area .footer-widget .social-links li a.facebook:hover {
-  background: #6598FE;
+  background: #6598fe;
   color: #fff;
 }
 
 .footer-area .footer-widget .social-links li a.twitter {
-  color: #5FC5F2;
+  color: #5fc5f2;
 }
 
 .footer-area .footer-widget .social-links li a.twitter:hover {
-  background: #5FC5F2;
+  background: #5fc5f2;
   color: #fff;
 }
 
 .footer-area .footer-widget .social-links li a.instagram {
-  color: #FF679D;
+  color: #ff679d;
 }
 
 .footer-area .footer-widget .social-links li a.instagram:hover {
-  background: #FF679D;
+  background: #ff679d;
   color: #fff;
 }
 
 .footer-area .footer-widget .social-links li a.linkedin {
-  color: #336DB8;
+  color: #336db8;
 }
 
 .footer-area .footer-widget .social-links li a.linkedin:hover {
-  background: #336DB8;
+  background: #336db8;
   color: #fff;
 }
 
@@ -2280,7 +2384,7 @@ textarea:focus {
 }
 
 .footer-area .footer-cradit p {
-  color: #868AAA;
+  color: #868aaa;
   font-size: 14px;
 }
 
@@ -2291,5 +2395,5 @@ textarea:focus {
 }
 
 .footer-area .footer-cradit p a:hover {
-  color: #DE5088;
+  color: #de5088;
 }
